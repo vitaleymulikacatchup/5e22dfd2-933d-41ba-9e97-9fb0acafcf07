@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -38,7 +38,6 @@ export default function Page() {
             { name: "Contact", id: "contact" }
           ]}
           logoSrc="https://images.pexels.com/photos/5255410/pexels-photo-5255410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          logoAlt="NASA Logo"
           brandName="NASA Missions"
           button={{
             text: "Explore Space",
@@ -363,7 +362,6 @@ export default function Page() {
       <div id="footer" data-section="footer">
         <FooterSocial
           logoSrc="https://images.pexels.com/photos/5255410/pexels-photo-5255410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          logoAlt="NASA Logo"
           logoText="NASA Missions"
           columns={[
             {
